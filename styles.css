@@ -250,13 +250,24 @@ ul {
         text-align: left; 
     }
 
+    .main-nav {
+        padding: 10px 0;
+    }
+
     .main-nav ul {
         flex-direction: column;
-        gap: 5px;
+        gap: 0;
     }
 
     .main-nav a {
-        font-size: 0.9rem;
+        font-size: 1.1rem;
+        padding: 10px 20px;
+        display: block;
+        border-bottom: 1px solid #444;
+    }
+
+    .main-nav ul li:last-child a {
+        border-bottom: none;
     }
 
     .hero-buttons {
