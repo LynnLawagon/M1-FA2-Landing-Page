@@ -101,6 +101,7 @@ section {
     width: 55%;
     padding-right: 20px;
     text-align: justify;
+    padding-top: 150px
 }
 
 .image-column {
@@ -351,4 +352,5 @@ body.dark-mode .cta-btn {
     background-color: #FFC107;
     color: #333;
 }
+
 
