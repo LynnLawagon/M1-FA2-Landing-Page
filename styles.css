@@ -250,25 +250,35 @@ ul {
         text-align: left; 
     }
 
+    /* 👇 START OF MAIN-NAV MOBILE CHANGES 👇 */
     .main-nav {
-        padding: 10px 0;
+        /* Increased padding on the nav container for a larger overall bar */
+        padding: 10px 0; 
     }
-
+    
     .main-nav ul {
         flex-direction: column;
-        gap: 0;
+        /* Removed gap since we are separating links with padding/borders */
+        gap: 0; 
     }
 
     .main-nav a {
+        /* Increased padding for easier tapping */
+        padding: 10px 20px; 
+        /* Increased font size for readability */
         font-size: 1.1rem;
-        padding: 10px 20px;
-        display: block;
-        border-bottom: 1px solid #444;
+        /* Make the link fill the whole space */
+        display: block; 
+        /* Add a separator between links */
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1); 
     }
-
+    
+    /* Remove the separator from the last item */
     .main-nav ul li:last-child a {
         border-bottom: none;
     }
+    /* 👆 END OF MAIN-NAV MOBILE CHANGES 👆 */
+
 
     .hero-buttons {
         flex-direction: column; 
