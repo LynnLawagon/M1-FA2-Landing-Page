@@ -250,17 +250,13 @@ ul {
         text-align: left; 
     }
 
-    /* 👇 START OF MAIN-NAV HORIZONTAL MOBILE CHANGES (No Stacking) 👇 */
     .main-nav {
-        /* Enables horizontal scrolling */
         overflow-x: auto;
-        /* Prevents content from wrapping */
         white-space: nowrap; 
         padding: 6px 0;
     }
     
     .main-nav ul {
-        /* Forces the list items into a single row */
         flex-direction: row; 
         flex-wrap: nowrap; 
         justify-content: flex-start;
@@ -269,20 +265,15 @@ ul {
     }
 
     .main-nav ul li {
-        /* Prevents list items from shrinking to fit the small screen */
         flex-shrink: 0; 
     }
     
     .main-nav a {
         padding: 8px 12px; 
         font-size: 0.95rem; 
-        /* Important: display: inline-block ensures they stay side-by-side */
         display: inline-block; 
-        /* Ensure no border is added here that might cause stacking */
         border-bottom: none; 
     }
-    /* 👆 END OF MAIN-NAV HORIZONTAL MOBILE CHANGES 👆 */
-
 
     .hero-buttons {
         flex-direction: column; 
@@ -360,3 +351,4 @@ body.dark-mode .cta-btn {
     background-color: #FFC107;
     color: #333;
 }
+
