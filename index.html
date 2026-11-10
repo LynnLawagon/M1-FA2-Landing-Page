@@ -1,219 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FreshSense</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f6f5ef">
+  <meta name="description" content="FreshSense helps mushroom growers monitor changes in grow-room air and respond to potential issues sooner.">
+  <title>FreshSense — A closer watch on your growing room</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
-    <header class="head">
-        <div class="theme-toggle">
-            <button id="themeSwitch">Switch Theme</button>
-        </div>
-        
-        <h1>FreshSense</h1>
-        <p>The New Way to Protect Mushroom Farms Using the Power of Smell</p>
-        <div class="hero-buttons">
-            <a href="#order-section" class="cta-link">
-                <button class="cta-btn">Get FreshSense Today</button>
-            </a>
-        </div>
-    </header>
-    
-    <nav class="main-nav">
-        <ul>
-            <li><a href="#about">About FreshSense</a></li>
-            <li><a href="#why-smell">Why Smell Matters</a></li>
-            <li><a href="#how-it-works">How It Works</a></li>
-            <li><a href="#benefits">Why It's Important</a></li>
-            <li><a href="#who-for">Who Is It For</a></li>
-            <li><a href="#simple-tool">A Simple Tool</a></li>
-            <li><a href="#difference">What Makes FreshSense Different</a></li>
-            <li><a href="#farmers-mind">Designed With Farmers in Mind</a></li>
-            <li><a href="#mission">Mission</a></li>
-        </ul>
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="FreshSense home"><span class="brand-mark">F</span><span>freshsense<span class="brand-period">.</span></span></a>
+    <nav class="main-nav" aria-label="Main navigation">
+      <a href="#about">About</a><a href="#how-it-works">How it works</a><a href="#benefits">Benefits</a><a href="#farmers">For growers</a>
     </nav>
+    <div class="header-actions">
+      <button class="theme-toggle" id="themeSwitch" type="button" aria-label="Switch to dark theme"><span class="theme-icon">◐</span><span class="theme-label">Dark mode</span></button>
+      <a class="button button-small" href="#contact">Get in touch <span aria-hidden="true">↗</span></a>
+    </div>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+  </header>
 
-    <section class="nav" id="about">
-        <div class="text-column">
-            <h2>What is FreshSense?</h2>
-            <p>FreshSense is a compact, easy-to-use device that 
-                continuously monitors the air in mushroom farms for 
-                unusual odors indicating problems like mold or bacteria. 
-                When it detects an issue, it instantly alerts the farmer’s 
-                phone, allowing for quick action. Essentially, it serves as a 
-                “nose that never sleeps,” protecting the harvest around the clock.
-            </p>
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-line"></span> SMARTER MUSHROOM FARMING</p>
+        <h1>A closer watch on<br><em>what you can’t see.</em></h1>
+        <p class="hero-description">FreshSense monitors changes in the air inside mushroom growing rooms, helping growers spot potential problems and respond with confidence.</p>
+        <div class="hero-actions"><a class="button" href="#how-it-works">Discover FreshSense <span aria-hidden="true">→</span></a><a class="text-link" href="#about">Learn about the system <span aria-hidden="true">↓</span></a></div>
+        <div class="hero-note"><span class="note-dot"></span> Built around the everyday needs of mushroom growers</div>
+      </div>
+      <div class="hero-visual">
+        <img src="img/farm.jpg" alt="Rows of mushrooms growing inside a controlled farm environment">
+        <div class="image-caption"><span class="caption-number">01 / 03</span><span>A healthier growing environment starts with awareness.</span></div>
+        <div class="hero-stamp"><span>GROW</span><span>WITH</span><strong>CARE.</strong></div>
+      </div>
+    </section>
+
+    <section class="intro section-wrap" id="about">
+      <div class="section-kicker">01 — THE IDEA</div>
+      <div class="intro-content">
+        <h2>Good harvests begin<br>with a healthy room.</h2>
+        <div class="intro-text"><p>Mushroom growing depends on a carefully managed environment. But some changes in a grow room may be difficult to notice right away.</p><p>FreshSense is a compact monitoring device designed to observe unusual odor patterns in the air. When it detects a change that may need attention, it sends an alert to the grower’s phone.</p><p class="supporting-line">Think of it as an extra set of eyes — or rather, a nose — on your growing room.</p></div>
+      </div>
+    </section>
+
+    <section class="story-band">
+      <div class="story-image"><img src="img/mushroom.jpg" alt="Close-up of mushroom cultivation"></div>
+      <div class="story-copy"><p class="eyebrow eyebrow-light">WHY AIR MATTERS</p><h2>Notice the change.<br><em>Check before it spreads.</em></h2><p>Unusual odors can be one of several signs that conditions in a growing room have changed. FreshSense is designed to help bring those changes to a grower’s attention, alongside regular farm checks and good growing practices.</p><a class="light-link" href="#how-it-works">See how it works <span>→</span></a></div>
+    </section>
+
+    <section class="process section-wrap" id="how-it-works">
+      <div class="section-heading"><div class="section-kicker">02 — THE PROCESS</div><div><h2>Simple by design.</h2><p>Two connected parts work together to help you keep an eye on your growing space.</p></div></div>
+      <div class="process-grid">
+        <article class="process-card"><span class="card-index">01</span><div class="process-symbol">◉</div><h3>The sensing device</h3><p>A compact unit placed inside the growing room monitors the air for selected odor patterns that may indicate a change in conditions.</p><div class="card-rule"></div><span class="card-foot">IN THE GROW ROOM</span></article>
+        <article class="process-card"><span class="card-index">02</span><div class="process-symbol">▣</div><h3>The mobile app</h3><p>The app presents the monitoring status and sends a notification when an unusual reading needs your attention.</p><div class="card-rule"></div><span class="card-foot">IN YOUR HANDS</span></article>
+      </div>
+      <div class="alert-example"><div class="alert-icon">!</div><div><span class="alert-label">EXAMPLE NOTIFICATION</span><p>Unusual air pattern detected in Growing Room 2. Please inspect the area.</p></div><span class="alert-time">FreshSense alert</span></div>
+      <p class="fine-print">FreshSense is intended as a monitoring aid. Alerts should be checked by the grower and do not replace visual inspection, environmental controls, or laboratory testing.</p>
+    </section>
+
+    <section class="benefits" id="benefits">
+      <div class="benefits-inner">
+        <div class="section-kicker section-kicker-light">03 — THE VALUE</div>
+        <h2>More awareness.<br><em>Better decisions.</em></h2>
+        <p class="benefits-lead">A little more information can make daily farm management feel more manageable.</p>
+        <div class="benefit-list">
+          <div><span>01</span><p><strong>Earlier attention</strong><small>Be prompted to check unusual changes as they happen.</small></p></div>
+          <div><span>02</span><p><strong>Less guesswork</strong><small>Use monitoring information as another input when making farm decisions.</small></p></div>
+          <div><span>03</span><p><strong>More consistent care</strong><small>Support routine checks across your growing rooms.</small></p></div>
+          <div><span>04</span><p><strong>Designed to be approachable</strong><small>Clear status updates help make the system easier to understand.</small></p></div>
         </div>
-        <div class="image-column">
-            <img src="img/alert.jpg" alt="Alert notification on phone" class="feature-img" id="img1">
-            <img src="img/farm.jpg" alt="Mushroom farm interior" class="feature-img" id="img2">
-            <img src="img/mushroom.jpg" alt="FreshSense device close-up" class="feature-img" id="img3">
-        </div>
+      </div>
+      <div class="benefits-image"><img src="img/alert.jpg" alt="A mobile phone displaying a FreshSense-style monitoring alert"><span>INFORMATION WHEN IT MATTERS</span></div>
     </section>
 
-    <section class="info-section body" id="why-smell">
-        <h2>Why Smell Matters in Mushroom Farming?</h2>
-        <p>Most mushroom problems begin with subtle 
-            odors that humans cannot detect, appearing 
-            hours or days before visible signs like mold 
-            or discoloration. Farmers often notice issues 
-            too late, after contamination has spread. FreshSense 
-            addresses this by detecting these early invisible smells, 
-            giving farmers a head start to prevent damage and protect their harvest.
-        </p>
+    <section class="audience section-wrap" id="farmers">
+      <div class="section-kicker">04 — WHO IT’S FOR</div>
+      <div class="audience-main"><h2>Made for the people<br>who grow our food.</h2><p>Whether you manage a small growing room or a larger indoor operation, FreshSense is being developed with practical farm routines in mind.</p></div>
+      <div class="audience-tags"><span>Mushroom farmers</span><span>Indoor farm operators</span><span>Vertical farms</span><span>Substrate producers</span><span>New growers</span></div>
     </section>
 
-    <section class="info-section body1" id="how-it-works">
-        <h2>How FreshSense Works</h2>
-        <p>FreshSense is made up of two main parts:</p>
-        
-        <div class="feature-block">
-            <p>
-                1. A smart odor sense
-                <br>
-                This is the small device placed in mushroom growing rooms. It checks the air 
-                for certain smells that are known to be early signs of trouble. It doesn’t need 
-                water, sunlight, or complicated setup—just place it and turn it on
-            </p>
-        </div>
-
-        <div class="feature-block">
-            <p>
-                2. A Mobile App for Farmers
-                <br>
-                The app shows what FreshSense is detecting. If the air is clean and healthy, 
-                everything will appear green. If something unusual starts to happen, the app 
-                changes color and sends a message like:
-            </p>
-            <ul>
-                <li>🌱“Warning: Possible mold activity in Room 2.”</li>
-                <li>🌱“Alert: Air quality changing—check humidity or ventilation.”</li>
-            </ul>
-            <p>
-                Farmers can then act quickly by adjusting temperature, cleaning a tray, 
-                improving airflow, or removing infected spots.
-                <br>
-                Everything is designed to be easy to understand so any farmer, no matter 
-                their background, can use it comfortably
-            </p>
-        </div>
+    <section class="closing" id="contact">
+      <p class="eyebrow eyebrow-light">FRESH THINKING FOR EVERY GROWING ROOM</p>
+      <h2>Grow with a little<br><em>more confidence.</em></h2>
+      <p>Get to know FreshSense and explore a more attentive approach to mushroom farm monitoring.</p>
+      <a class="button button-light" href="mailto:hello@freshsense.example">Contact FreshSense <span aria-hidden="true">↗</span></a>
+      <span class="closing-note">A healthier growing environment starts with paying attention.</span>
     </section>
+  </main>
 
-    <section class="info-section body2 highlights-grid" id="benefits">
-        <h2>Why FreshSense is Important</h2>
-        <p>FreshSense helps solve real problems that mushroom farmers face every day:</p>
-        <ul class="benefits-list">
-            <li>🌱Prevents crop loss.</li>
-            <li>🌱Saves money.</li>
-            <li>🌱Reduces stress.</li>
-            <li>🌱Improves mushroom quality.</li>
-            <li>🌱Helps small and big farms.</li>
-        </ul>
-    </section>
-
-    <section class="info-section body3" id="who-for">
-        <h2>Who is FreshSense for?</h2>
-        <p>FreshSense is designed for: </p>
-        <ul class="tag-list">
-            <li>Mushroom farmers growing oyster, shiitake, button, lion’s mane, and other varieties</li>
-            <li>Indoor farm operators</li>
-            <li>Vertical farms</li>
-            <li>Substrate makers</li>
-            <li>New growers who want better control over their grow rooms</li>
-        </ul>
-        <p>Whether the farm is small or large, FreshSense brings modern protection that 
-        used to be available only in expensive laboratories
-        </p>
-    </section>
-
-    <section class="info-section body4" id="simple-tool">
-        <h2>A Simple Tool With a Big Impact</h2>
-        <p>FreshSense brings a new way of thinking to farming. Instead of reacting only 
-        when something looks wrong, FreshSense helps farmers act early—before the 
-        damage spreads. The goal is simple: give every mushroom farm the chance to 
-        run smoothly and successfully.
-        <br><br>
-        With FreshSense, farmers gain:
-        </p>
-        <ul class="benefits-list">
-            <li>🌱Better harvest consistency</li>
-            <li>🌱Cleaner grow rooms</li>
-            <li>🌱Fewer disease outbreaks</li>
-            <li>🌱More confidence every growing cycle</li>
-            <li>🌱Higher income and lower waste</li>
-        </ul>
-        <p>It is like having an invisible guard checking every room, every hour, every day.</p>
-    </section>
-
-    <section class="info-section body5" id="difference">
-        <h2>What Makes FreshSense Different?</h2>
-        <p>FreshSense is built specifically for mushroom farms. Traditional sensors only measure temperature and humidity. FreshSense goes beyond that by focusing on smell, the earliest sign of contamination.</p>
-        <br>
-        <p>Other tools detect problems late—FreshSense detects them early</p>
-        <br>
-        <p>This gives farmers time to react, save the harvest, and prevent bigger losses.</p>
-    </section>
-
-    <section class="info-section body6" id="farmers-mind">
-        <h2>Designed with Farmers in Mind</h2>
-        <p>FreshSense was created by listening to mushroom farmers. The design is:</p>
-        <ul class="tag-list">
-            <li>Easy to install</li>
-            <li>Affordable</li>
-            <li>Low Maintenance</li>
-            <li>Works automatically</li>
-            <li>Gives clear and simple alerts</li>
-        </ul>
-    </section>
-    
-    <section class="info-section mission" id="mission">
-        <h2>The FreshSense Mission</h2>
-        <p>FreshSense wants to help farmers grow healthier mushrooms with less risk.</p>
-        <h3>The company believes in:</h3>
-        <ul>
-            <li>🌱Making modern tools accessible</li>
-            <li>🌱Supporting local farmers</li>
-            <li>🌱Using smell as a natural way to detect problems</li>
-            <li>🌱Reducing waste and improving food safety</li>
-            <li>🌱Helping farms become more sustainable</li>
-        </ul>
-    </section>
-
-    <section class="info-section end" id="fresh-start">
-        <h2>A Fresh Start for Mushroom Farming</h2>
-        <p>FreshSense is more than a product—it is a partner for every mushroom grower. 
-            By turning simple smells into useful information, FreshSense gives farmers control, 
-            confidence, and protection.</p>
-        <br>
-        <p>
-        Healthy mushrooms start with a healthy environment. 
-        And FreshSense makes that possible by catching problems early, 
-        before anyone sees or smells them.
-        </p>
-        <br>
-        <p>
-            If you want to protect your mushroom farm, grow with confidence, and avoid 
-            costly surprises, FreshSense is here to help.
-        </p>
-    </section>
-
-    <section class="final-cta" id="order-section">
-        <h2>Take Control of Your Mushroom Farm Today</h2>
-        <p>Protect your harvest, reduce waste, and farm smarter with FreshSense.</p>
-        <a href="#order-section" class="cta-link">
-            <button class="cta-btn">Order Now</button>
-        </a>
-    </section>
-
-    <footer class="page-footer">
-        <p><strong>FreshSense—smarter farming through the power of smell.</strong></p>
-        <p class="contact-info">© 2025 FreshSense</p>
-        <a href="#top" class="back-to-top">Back to Top ↑</a>
-    </footer>
-
-    <script src ="script.js"></script>
+  <footer class="site-footer"><a class="brand footer-brand" href="#top"><span class="brand-mark">F</span><span>freshsense<span class="brand-period">.</span></span></a><p>Smarter awareness for mushroom growing.</p><span>© <span id="year"></span> FreshSense</span><a href="#top" class="back-top">Back to top ↑</a></footer>
+  <script src="script.js"></script>
 </body>
 </html>
